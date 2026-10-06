@@ -1,0 +1,29 @@
+# Secrets: never commit real settings (.env.example IS committed as the template)
+.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Django generated files (collectstatic output, uploads, local SQLite)
+staticfiles/
+media/
+db.sqlite3
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
